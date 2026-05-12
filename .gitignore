@@ -1,1 +1,19 @@
+# 환경 변수 (모든 백업 포함)
 .env
+.env.*
+!.env.example
+
+# 데이터 산출물 (스크래핑·API 결과 등)
+*.json
+
+# Python 캐시
+__pycache__/
+*.pyc
+*.pyo
+
+# 가상환경
+.venv/
+venv/
+
+# macOS
+.DS_Store
